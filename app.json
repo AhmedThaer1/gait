@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "gait",
-    "slug": "gait",
+    "slug": "health-care-be-fit",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.gilgameshproduction.healthcarebefit"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3da15bf9-b969-48fc-9f07-26d95819e4ad"
+      }
+    },
+    "owner": "gilgameshproduction"
   }
 }
